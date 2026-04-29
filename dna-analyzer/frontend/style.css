@@ -3,7 +3,6 @@
   --bg: #0b1020;
   --card: #0f1733;
   --text: #e5e7eb;
-  --text-dark: #08101f;
   --muted: #a5b4fc;
   --primary: #4f46e5;
   --primary-dark: #4338ca;
@@ -261,22 +260,18 @@ input[type="text"]:focus {
 
 .nucleotide-a {
   background: #bbf7d0;
-  color: var(--text-dark);
 }
 
 .nucleotide-t {
   background: #fecaca;
-  color: var(--text-dark);
 }
 
 .nucleotide-g {
   background: #bfdbfe;
-  color: var(--text-dark);
 }
 
 .nucleotide-c {
   background: #fef08a;
-  color: var(--text-dark);
 }
 
 .dp-grid-wrapper {
@@ -302,7 +297,6 @@ input[type="text"]:focus {
   vertical-align: middle;
   position: relative;
   font-weight: 600;
-  color: var(--text);
 }
 
 .dp-grid th {
@@ -321,18 +315,6 @@ input[type="text"]:focus {
 
 .match-cell {
   background: var(--match);
-}
-
-.active-cell .cell-value,
-.path-cell .cell-value,
-.match-cell .cell-value {
-  color: var(--text-dark);
-}
-
-.active-cell .arrow,
-.path-cell .arrow,
-.match-cell .arrow {
-  color: var(--text-dark);
 }
 
 .arrow {
